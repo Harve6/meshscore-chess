@@ -11,7 +11,7 @@ Powered by MeshScore. The board now runs on Cloudflare; this repo only holds the
 
 1. Join the **#chess** channel in the MeshCore app (scan the QR on the board, or add a hashtag channel named `chess`).
 2. Send `!move e4` (or any legal move).
-3. The first vote of a round starts a **5 minute clock**. Everyone's votes count; the most votes wins (ties go to the
+3. The first vote of a round starts a short clock (1 minute). Everyone's votes count; the most votes wins (ties go to the
    earliest vote).
 4. The bot replies with one post per round. Checkmate it to level up.
 
