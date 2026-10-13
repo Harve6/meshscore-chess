@@ -3,10 +3,9 @@
 The whole `#chess` channel plays **White together** against a bot, over MeshCore radio. Vote the next move; the most
 popular one is played; the bot answers. Win and it levels up.
 
-**Live board:** https://harve6.github.io/meshscore-chess/
+**Live board:** https://meshscore-chess.harve6.workers.dev/
 
-Powered by MeshScore. This repo is just the web board: the bot publishes
-`state.json` here and `index.html` shows it.
+Powered by MeshScore. The board now runs on Cloudflare; this repo only holds the README and a redirect for the old address.
 
 ## How to play
 
@@ -47,5 +46,4 @@ Send them on `#chess` (or by DM as `!chess <command>`).
 
 ## For the operator
 
-This repo is written by the bot (`site_dir` in the bot's `[bots.chess]` settings); `index.html` is kept in step
-with the MeshScore version, so edit the page in MeshScore, not here.
+The bot uploads the page and `state.json` to a Cloudflare Worker (`site_api` in the bot's `[bots.chess]` settings).
